@@ -1,0 +1,1165 @@
+
+
+@font-face {
+  font-family: molot;
+  src: url(../font/molot.otf);
+}
+
+@import url(../font/poppins-regular.ttf);
+@import url(../font/molot.otf);
+
+
+
+
+
+
+
+
+
+*, a {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url(../img/background.png);
+    background-position: center;
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	width: 100%; height: auto;
+}
+.header {
+	background-position: center;
+	background-size: cover;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	width: 100%; height: auto;
+	
+}
+img, a, p, span, h1, h2, h3, h4, h5, h6 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+p {
+	font-family: poppins;
+}
+.molot {
+	font-family: molot;
+}
+
+/* Header Section Code Strt From Here */
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	color: #ffffff !important;
+	font-size: 20px;
+	padding: 0px 20px !important;
+	font-family: poppins;
+	margin-top: 10px !important;
+}
+.nav-link:hover, li span .social-icon:hover, span .social-icon i:hover {
+	color: #e56c2f !important;
+}
+
+.navbar-collapse .navbar-nav .nav-item a {
+	margin: 0px!important;
+}
+
+.navbar-collapse li span .social-icon, span .social-icon {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px!important;
+}
+
+
+/*
+.n-icon{
+	padding-left: 0px !important;
+}
+.n-icon{
+	padding: 5px !important;
+	margin: 0px !important;
+}
+
+.telegram:hover{
+  content: url(../img/telegram-hover.png);
+   transition: .5s;
+}
+.discord:hover{
+  content: url(../img/discord-hover.png);
+   transition: .5s;
+}
+.twitter:hover{
+  content: url(../img/twitter-hover.png);
+   transition: .5s;
+}
+*/
+.d-icon:hover{
+	color: #000;
+}
+.header{
+	background-color: #00000069 !important;
+}
+.icon-group{
+
+}
+
+/* Header Section Code End From Here */
+
+/* Banner Section Code Strt From Here */
+.banner-section{
+
+}
+.banner {
+	padding-top: 100px !important;
+}
+
+.b-content h1{
+	padding-top: 50px !important;
+	color: #ffffff;
+	font-size: 60px;
+	line-height: 1;
+	text-transform: uppercase;
+	font-family: molot;	
+}
+.b-content p{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 20px 0px !important;
+}
+.b-content button {
+	border: none;
+	padding: 12px 18px;
+	border-radius: 36px;
+	text-transform: uppercase;	
+  background-image: linear-gradient(to right, #7bb842, #d87531);
+
+}
+.b-content button:hover {
+	background-image: linear-gradient(to right, #d87531, #7bb842);
+	transition: .5s !important;
+}
+.hero {
+	height: 450px; 
+	width: 4509;
+}
+/* Banner Section Code End From Here */
+/* About Us Section Code Start From Here */
+.about-content {
+	text-align: center;
+}
+.about-content h3 {
+	text-align: center;
+	padding: 30px 0px !important;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.about-content p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0px 150px !important;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+
+/* About Us Section Code End From Here */
+/* Road Map Section Code Start From Here */
+#hideDesktop .row {
+	padding-top: 80px;
+	color: #fff;
+}
+#hideDesktop .firstChild {
+padding-top: 20px!important;
+}
+
+#hideDesktop .row p {
+	padding-top: 10px!important;
+}
+
+.roadmap{
+	padding-top: 50px;
+	text-align: center;
+	overflow: hidden !important;
+}
+.roadmap-box {
+	height: 250px !important;
+}
+.roadmap-heading {
+	text-align: center !important;
+}
+.roadmap-heading h3 {
+	text-align: center;
+	padding: 30px 0px 5px 0px!important;
+	color: #ffffff;
+	font-size: 50px;
+	font-weight: 900;
+	text-transform: capitalize;
+}
+.r-heading{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 20px !important;
+	 margin-top: 114px !important;
+}
+
+
+.r-text {
+	color: #ffffff;
+	font-size: 16px !important;
+	text-align: left;
+	font-weight: 500;
+	background-color: #90a566;
+	border-radius: 10px;
+	padding: 20px 25px !important;
+	margin-top: 86px !important;
+
+
+}
+.r-text8 {
+	margin-top: 20px!important;
+}
+
+.roadmap-box{
+	margin: 7px 0px;
+	overflow: hidden;
+}
+/* Road Map Section Code End From Here */
+
+
+/* Team Section Code Start From Here */
+.team {
+	overflow: hidden !important;
+
+}
+.team-content {
+	text-align: center;
+	margin-top: 60px;
+}
+.dot-img{
+	overflow: hidden;
+	padding: 50px;
+}
+.dot-icon-img {
+	padding: 10px 10px !important;
+}
+.team-content h3 {
+	text-align: center;
+	padding: 30px 0px !important;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.team-content p{
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0px 150px !important;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+.box {
+	text-align: center;
+	color: #ffffff;
+	margin-top: 50px;
+}
+.box h4{
+	text-align: center;
+	color: #ffffff;
+	font-family: molot;
+	text-transform: uppercase;
+}
+.box p{
+	text-align: center;
+	color: #ffffff;
+	padding-bottom: 10px !important;
+}
+.box-icon {
+	text-align: center;
+	color: #ffffff;
+}
+.box i {
+	text-align: center;
+	color: #ffffff;
+}
+.line-height{
+	line-height: 15px;
+}
+
+/* Team Section Code End From Here */
+/* FAQ Section Code Start From Here */
+
+
+.faq h3 {
+	font-size: 38px;
+	margin-bottom: 30px !important;
+}
+.collapsible {
+  background-color: #7bb84278;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 5px;
+}
+.active-home{
+	color: #e56c2f !important;
+}
+.active, .collapsible:hover {
+  background-color: #e56c2f;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #ffffff;
+}
+.content p {
+	color: #000;
+	padding: 10px 0px !important;
+}
+
+/* FAQ Section Code End From Here */
+/* Footer Section Code Start From Here */
+.footer-section {
+	background-image: linear-gradient(to top, #d875317a, #7bb84278);
+	margin-top: 100px;
+	background-repeat: no-repeat;
+
+}
+.contact {
+	padding-bottom: 50px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.contact h3 {
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-bottom: 10px !important;
+	letter-spacing: 2px;
+}
+.contact p{
+	color: #ffffff;
+}
+
+
+form {
+	padding: 50px 0px !important;
+}
+input{
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #ffffff;
+	color: #ffffff;
+}
+.input1{
+	margin-right: 50px !important;
+}
+
+form button{
+	background: transparent;
+	padding: 15px 40px !important;
+	text-transform: uppercase;
+	border-radius: 40px;
+	border: 2px solid #ffffff;
+	margin-left: 40px !important;
+	color: #ffffff;
+	font-size: 20px;
+
+}
+form button:hover{
+	background-color: #e56c2f;
+	color: #ffffff;
+	border: 2px solid #e56c2f;
+}
+
+
+
+.contact h5{
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0px !important;
+} 
+.f-menu{
+	text-align: center !important;
+}
+.f-menu ul {
+	list-style: none;
+}
+.f-menu ul li {
+	display: inline-block !important;
+}
+.f-menu ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px 30px !important;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 500;
+}
+.copyright {
+	text-align: center;
+	color: #ffffff;
+	padding: 40px 0px;
+	border-top: 1px solid #000000;
+}
+
+/* Footer Section Code End From Here */
+
+/* Media Query Code End From Here */
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  #hideDesktop {
+  	display: none;
+  }
+    /* CSS */
+    .n-icon{
+	padding-bottom: 10px !important;
+}
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    #hideDesktop {
+    	display: none;
+    }
+    /* CSS */
+    .n-icon{
+	height: 40PX;
+	width: 40PX;
+}
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #hideDesktop {
+    	display: none;
+    }
+    /* CSS */
+      .nav-link {
+	font-size: 14px;
+	padding: 0px 10px !important;
+	
+}
+.n-icon{
+	height: 40PX;
+	width: 40PX;
+}
+
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #hideDesktop {
+    	display: none;
+    }
+    /* CSS */
+.team-content p {
+	padding: 0px 40px !important;
+
+}
+
+
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    #hideMobile {
+    	display: none;
+    }
+    .navbar-nav {
+  text-align: center;
+  margin-top: -60PX !important;
+}
+    /* CSS */
+    .b-content h3 {
+    	font-size: 28px;
+    	padding-top: 20px;
+  }
+   .hero {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px !important;
+}
+.banner {
+	text-align: center;
+	padding-top: 0px !important;
+}
+.about-content p{
+	padding: 0px !important;
+	font-size: 16px;
+}
+.n-icon{
+	padding: 5px;
+	margin: 0px 0px;
+}
+
+form button{
+	margin-top: 50px;
+
+}
+.team-content p {
+	padding: 0px 20px !important;
+}
+
+.about-content p{
+	padding: 0px 20px !important;
+}
+
+.logo-img{
+	width: auto;
+	height: auto;
+	padding: 20PX !important;
+}
+
+.dot-img {
+	display: none;
+}
+
+.roadmap-box {
+	height: 550px !important;
+}
+
+.roadmap-box1{
+	position: relative;
+}
+.icon-img1{
+	position: absolute;
+	
+}
+.r-heading1{
+	position: absolute;
+}
+.r-text1{
+	position: absolute;
+}
+.nav-item {
+  margin-bottom: 0px !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roadmap-box1{
+	position: relative;
+}
+.icon-img1{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading1{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text1{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box2{
+	position: relative;
+}
+.icon-img2{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading2{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text2{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+
+.roadmap-box3{
+	position: relative;
+}
+.icon-img3{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading3{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text3{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+.roadmap-box4{
+	position: relative;
+}
+.icon-img4{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading4{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text4{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+.roadmap-box5{
+	position: relative;
+}
+.icon-img5{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading5{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text5{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box6{
+	position: relative;
+}
+.icon-img6{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading6{
+	position: absolute;
+	top: 70px;
+	left: 160px;
+}
+.r-text6{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box7{
+	position: relative;
+}
+.icon-img7{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading7{
+	position: absolute;
+	top: 70px;
+	left: 120px;
+}
+.r-text7{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box8{
+	position: relative;
+}
+.icon-img8{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading8{
+	position: absolute;
+	top: 70px;
+	left: 140px;
+}
+.r-text8{
+	position: absolute;
+	top: 120px;
+	height: 200px !important;
+}
+
+
+
+.roadmap-box9{
+	position: relative;
+}
+.icon-img9{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading9{
+	position: absolute;
+	top: 70px;
+	left: 110px;
+}
+.r-text9{
+	position: absolute;
+	top: 120px;
+}
+
+
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 20px) and (max-width: 480px) {
+
+
+    #hideMobile {
+    	display: none;
+    }
+    /* CSS */
+    .b-content h1 {
+    	font-size: 38px;
+    	padding-top: 20px;
+    }
+    .hero {
+    height: 250px;
+    width: 250px;
+    margin-top: 50px !important;
+
+}
+
+.navbar-nav {
+  text-align: center;
+  margin-top: -50PX !important;
+}
+
+.nav-link {
+  padding: 0px 10px !important;
+  margin-top: 0px !important;
+}
+.f-menu ul li a {
+
+  padding: 20px !important;
+}
+.about-content p{
+	padding: 0px 20px !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+
+}
+.banner {
+	text-align: center;;
+}
+.about-cfile:///D:/NFT%20LANDING%20PAGE/NFT-Landing-Page-v2-main/index.html?NAME=&EMAIL=#ontent p{
+	padding: 0px !important;
+	font-size: 16px;
+}
+.n-icon{
+	padding: 5px;
+	margin: 0px 0px;
+	padding-top: 25px !important;
+}
+.nav-item {
+  margin-bottom: 0px !important;
+}
+form button{
+	margin-top: 50px;
+	text-align: center;
+
+}
+.input1{
+	margin-right: 0px !important;
+}
+
+.team-content p {
+	padding: 0px 10px !important;
+
+}
+
+
+
+
+.dot-img {
+	display: none;
+}
+.roadmap-box {
+	height: 300px !important;
+	margin-top: 20px !important;
+	text-align: center;
+}
+
+.r-text {
+	color: #ffffff;
+	font-size: 16px !important;
+	text-align:  center !important;
+	font-weight: 500;
+	background-color: #90a566;
+	border-radius: 10px;
+	padding: 20px 25px !important;
+	margin-top: 6px !important;
+
+
+}
+.r-heading{
+	 margin-top: 0px !important;
+	 text-align:  center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.roadmap-box1{
+	position: relative;
+}
+.icon-img1{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading1{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text1{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box2{
+	position: relative;
+}
+.icon-img2{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading2{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text2{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+
+.roadmap-box3{
+	position: relative;
+}
+.icon-img3{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading3{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text3{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+.roadmap-box4{
+	position: relative;
+}
+.icon-img4{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading4{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text4{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+.roadmap-box5{
+	position: relative;
+}
+.icon-img5{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading5{
+	position: absolute;
+	top: 70px;
+	left: 130px;
+}
+.r-text5{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box6{
+	position: relative;
+}
+.icon-img6{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading6{
+	position: absolute;
+	top: 70px;
+	left: 160px;
+}
+.r-text6{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box7{
+	position: relative;
+}
+.icon-img7{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading7{
+	position: absolute;
+	top: 70px;
+	left: 120px;
+}
+.r-text7{
+	position: absolute;
+	top: 120px;
+}
+
+
+.roadmap-box8{
+	position: relative;
+}
+.icon-img8{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading8{
+	position: absolute;
+	top: 70px;
+	left: 140px;
+}
+.r-text8{
+	position: absolute;
+	top: 120px;
+	height: 200px !important;
+}
+
+
+
+.roadmap-box9{
+	position: relative;
+}
+.icon-img9{
+	position: absolute;
+	top: 0;
+	left: 180px;
+	
+}
+.r-heading9{
+	position: absolute;
+	top: 70px;
+	left: 110px;
+}
+.r-text9{
+	position: absolute;
+	top: 120px;
+}
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
